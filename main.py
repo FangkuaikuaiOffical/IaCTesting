@@ -9,7 +9,7 @@ from iac_testing_antipatterns import IaCTestingAntipatterns
 
 def main():
     
-    
+    print("this is an example change for codacy test.")
     
     base_dir= input("Please enter the directory: ")
     print("\n")
@@ -17,7 +17,6 @@ def main():
     
     project_name = input ("Please enter the project name: ")
     print(project_name)
-    
     print("Testing branch")
     
     files = Util().get_files(base_dir)
